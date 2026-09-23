@@ -4,3 +4,22 @@
 @media(max-width:520px){.hero-wordmark{height:125px}.hero-wordmark .the{font-size:1.8rem;left:0}.hero-wordmark .roll{font-size:4.7rem;left:34px;top:28px}.hero-wordmark .out{font-size:4.1rem;left:215px;top:38px}.hero-wordmark .crown{font-size:3.2rem;left:250px}.hero-buttons{grid-template-columns:1fr}.hero-photo{height:360px}.audience{grid-template-columns:58% 42%}.card-copy{padding-left:22px}.schools{grid-template-columns:60% 40%;padding-left:22px}.school-art{font-size:5rem}footer{grid-template-columns:1fr}.access-panel{left:10px;right:10px;bottom:10px;width:auto}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
 
+
+/* Official Roll Out asset integration */
+.official-icons{display:grid!important;grid-template-columns:repeat(6,minmax(80px,1fr));gap:8px;max-width:760px;align-items:end}
+.official-icons img{display:block;width:100%;height:auto;object-fit:contain;transition:transform .22s ease,filter .22s ease;filter:drop-shadow(0 7px 12px #000)}
+.official-icons img:hover{transform:translateY(-7px) scale(1.04);filter:drop-shadow(0 9px 16px rgba(255,255,255,.16))}
+.art-button{display:inline-block;background:transparent!important;border:0!important;padding:0!important;cursor:pointer;line-height:0}
+.art-button img{display:block;width:min(290px,100%);height:auto;transition:transform .18s ease,filter .18s ease}
+.art-button:hover img,.art-button:focus-visible img{transform:translateY(-3px) scale(1.025);filter:brightness(1.1) drop-shadow(0 8px 10px #000)}
+.hero-buttons .art-button{width:min(290px,48%)}
+.hero-buttons .art-button img{width:100%}
+.next-up-art{width:min(220px,80%);height:auto;margin:0 0 8px}
+.event-art img{width:min(250px,100%)}
+.audience-badge{display:block!important;width:min(220px,92%)!important;height:auto!important;position:static!important;object-fit:contain!important;margin:0 0 4px!important}
+.school-badge{width:min(245px,95%)!important}.school-art img{width:min(240px,100%);height:auto}
+.small-art img{width:min(190px,100%)}.weekly-art img{width:min(270px,100%)}
+.social-row{display:flex;align-items:center;gap:7px;margin-top:14px;flex-wrap:wrap}.social-row img{width:39px;height:39px;object-fit:contain;transition:transform .18s ease}.social-row img:hover{transform:translateY(-4px) scale(1.08)}
+.access-art{background:none;border:0;padding:0;cursor:pointer;flex:0 0 105px}.access-art img{width:105px;height:auto}
+@media(max-width:820px){.official-icons{grid-template-columns:repeat(3,1fr);max-width:560px}.official-icons img{max-width:155px;margin:auto}.hero-buttons .art-button{width:100%;max-width:300px}.social-row img{width:44px;height:44px}}
+@media(max-width:480px){.official-icons{grid-template-columns:repeat(2,1fr)}.official-icons img{max-width:145px}.audience-badge{width:min(180px,100%)!important}}
