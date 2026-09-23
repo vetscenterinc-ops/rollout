@@ -4,16 +4,3 @@
 @media(max-width:520px){.hero-wordmark{height:125px}.hero-wordmark .the{font-size:1.8rem;left:0}.hero-wordmark .roll{font-size:4.7rem;left:34px;top:28px}.hero-wordmark .out{font-size:4.1rem;left:215px;top:38px}.hero-wordmark .crown{font-size:3.2rem;left:250px}.hero-buttons{grid-template-columns:1fr}.hero-photo{height:360px}.audience{grid-template-columns:58% 42%}.card-copy{padding-left:22px}.schools{grid-template-columns:60% 40%;padding-left:22px}.school-art{font-size:5rem}footer{grid-template-columns:1fr}.access-panel{left:10px;right:10px;bottom:10px;width:auto}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
 
-
-/* Official Roll Out icon sprite */
-.brand-icons{display:grid;grid-template-columns:repeat(6,minmax(78px,1fr));gap:10px;max-width:690px;align-items:end;margin:8px 0 22px}
-.activity-icon{width:100%;aspect-ratio:256/300;background-image:url("assets/rollout-icons.png");background-repeat:no-repeat;background-size:600% 341.333%;transition:transform .2s ease,filter .2s ease;filter:drop-shadow(0 5px 10px rgba(0,0,0,.45))}
-.activity-icon:hover,.activity-icon:focus-visible{transform:translateY(-6px) scale(1.04);filter:drop-shadow(0 8px 14px rgba(255,255,255,.16))}
-.activity-icon.skate{background-position:0 0}
-.activity-icon.djs{background-position:20% 0}
-.activity-icon.gaming{background-position:40% 0}
-.activity-icon.fundraising{background-position:60% 0}
-.activity-icon.vendors{background-position:80% 0}
-.activity-icon.food{background-position:100% 0}
-@media(max-width:820px){.brand-icons{grid-template-columns:repeat(3,1fr);max-width:520px;gap:8px}.activity-icon{min-width:0}}
-@media(max-width:420px){.brand-icons{grid-template-columns:repeat(2,1fr);max-width:360px}}
